@@ -18,11 +18,14 @@ IF "%1" == "chocoisinstalled" (
 	choco install 7zip.install -y
 	choco install vlc -y
 	choco install glip -y
-
+	choco install spotify -y --ignore-checksum 
+	REM Spotify has some problems with checksum. Let's ignore them 
+	
 	choco install treesizefree -y
 	choco install paint.net -y
 	choco install audacity -y
 	choco install gitkraken -y
+	choco install everything -y
 
 	echo.
 	echo.
