@@ -19,6 +19,7 @@ IF "%1" == "chocoisinstalled" (
 	choco install vlc -y
 	choco install glip -y
 	choco install spotify -y --ignore-checksum 
+	choco install steam -y
 	REM Spotify has some problems with checksum. Let's ignore them 
 	
 	choco install treesizefree -y
